@@ -64,6 +64,9 @@ app_license = "mit"
 # 	"filters": "fix_fixtures.utils.jinja_filters"
 # }
 
+before_migrate = ["fix_fixtures.api.before_migrate"]
+after_migrate = ["fix_fixtures.api.after_migrate"]
+
 # Installation
 # ------------
 
